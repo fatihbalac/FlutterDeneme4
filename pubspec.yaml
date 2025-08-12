@@ -1,0 +1,24 @@
+name: odev4_min
+description: Odev 4 - basit sayfa gecisleri
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mainpage.png
+    - assets/lotr.png
+    - assets/looper.jpg
+    - assets/huntsman.jpg
+    - assets/se7en.jpeg
